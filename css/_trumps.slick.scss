@@ -1,0 +1,27 @@
+/*-----------------------------------*\
+   SLICK
+\*-----------------------------------*/
+
+
+.slick-dots.slick-dots {
+	margin-left: 0;
+	margin-bottom: 0;
+	position: static;
+	bottom: 0;
+}
+.slick-dots li button:before {
+	color: $color-gray-8 !important;
+}
+.slick-dots li.slick-active button:before {
+	color: $color-gray-8 !important;
+}
+.testimonials__slider.slick-slider {
+	margin-bottom: 0;
+}
+.testimonials__slider .slick-slide {
+	float: none;
+}
+.testimonials__slider.slick-initialized .slick-slide {
+	display: inline-block;
+	vertical-align: middle;
+}

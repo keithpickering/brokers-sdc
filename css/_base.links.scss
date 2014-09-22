@@ -1,0 +1,33 @@
+a {
+	text-decoration: none;
+	&:hover,
+	&:focus {
+		color: $color-brand;
+	}
+	.site-nav &,
+	.page__main &,
+	.page__foot & {	
+		transition: all 0.15s;
+	}
+	.site-nav & {
+		border-bottom: 1px solid transparent;
+	}
+	.page__main & {
+		border-bottom: 1px solid $color-gray-2;
+		color: $color-gray-6;
+		&:hover,
+		&:focus {
+			border-bottom-color: rgba($color-blue, 0.5);
+			color: $color-gray-7;
+		}
+	}
+	.page__foot & {
+		border-bottom: 1px solid $color-gray-6;
+		color: $color-gray-2;
+		&:hover,
+		&:focus {
+			border-bottom-color: rgba(lighten($color-blue, 10%), 0.75);
+			color: white;
+		}
+	}
+}

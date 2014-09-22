@@ -1,0 +1,36 @@
+/*-----------------------------------*\
+   COLOR VARIABLES
+\*-----------------------------------*/
+
+
+
+$color-brand:     $brand-color;
+
+$color-blue:      #1552ab;
+$color-teal:      #159dd1;
+$color-red:       #ab1552;
+$color-green:     #15ab6e;
+$color-orange:    #bdae15;
+$color-cool-gray: lighten(#3d4550, 5%);
+$color-gray-1:    #ecf0f1;
+$color-gray-2:    darken($color-gray-1, 8%);
+$color-gray-3:    darken($color-gray-2, 8%);
+$color-gray-4:    darken($color-gray-3, 8%);
+$color-gray-5:    darken($color-gray-4, 8%);
+$color-gray-6:    darken($color-gray-5, 8%);
+$color-gray-7:    darken($color-gray-6, 8%);
+$color-gray-8:    darken($color-gray-7, 8%);
+$color-gray-9:    darken($color-gray-8, 8%);
+$color-gray-10:   darken($color-gray-9, 8%);
+
+$color-primary:   $color-teal;
+$color-secondary: $color-green;
+$color-tertiary:  $color-orange;
+
+
+
+// Links
+
+
+
+// Buttons

@@ -1,0 +1,29 @@
+/*-----------------------------------*\
+   ACCORDION
+\*-----------------------------------*/
+
+
+
+.accordion {
+	> dt,
+	> dd {
+		padding: $inuit-base-spacing-unit;
+	}
+	> dt {
+		padding-top: halve($inuit-base-spacing-unit);
+		padding-bottom: halve($inuit-base-spacing-unit);
+		border-bottom: 1px solid darken($color-blue, 5%);
+		background-color: $color-blue;
+		color: white;
+		cursor: pointer;
+		transition: all 0.15s;
+		@include inuit-font-size(24px);
+		&:hover {
+			background-color: lighten($color-blue, 5%);
+		}
+	}
+	> dd {
+		margin-left: 0;
+		background-color: $color-gray-1;
+	}
+}

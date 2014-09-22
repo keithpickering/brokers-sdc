@@ -1,0 +1,75 @@
+/*-----------------------------------*\
+   HOMEPAGE
+\*-----------------------------------*/
+
+
+
+.strip--intro {
+	display: table;
+	width: 100%;
+	min-height: 400px;
+	text-align: center;
+	color: white;
+	background-image: url(../images/house-overlay-2.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 50% 0;
+	> .wrapper {
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.btn {
+		margin-bottom: halve($inuit-base-spacing-unit);
+		@include media-query(desk) {
+			margin-bottom: 0;
+		}
+	}
+	h1 {
+		max-width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+		@include inuit-font-size(40px, 1.25);
+		@include media-query(desk) {
+			@include inuit-font-size(72px, 1.25);
+		}
+	}
+}
+
+
+.feature {
+	margin-bottom: double($inuit-base-spacing-unit);
+	text-align: center;
+	@include media-query(desk) {
+		margin-bottom: 0;
+	}
+	> .fa {
+		margin-bottom: halve($inuit-base-spacing-unit);
+		font-size: 64px;
+		width: 120px;
+		height: 120px;
+		line-height: 120px;
+		border-radius: 100px;
+		color: $color-gray-4;
+		background-color: $color-gray-1;
+	}
+	h1, h2, h3,
+	h4, h5, h6 {
+		line-height: 1.25;
+		@include inuit-font-size(24px, 1.25);
+		@include media-query(portable) {
+			> br {
+				display: none;
+			}
+		}
+	}
+}
+.feature__body {
+	margin-bottom: $inuit-base-spacing-unit;
+	text-align: left;
+}
+
+
+.testimonials {
+	padding-left: 0;
+	padding-right: 0;
+}

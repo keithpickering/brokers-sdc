@@ -1,0 +1,56 @@
+/*-----------------------------------*\
+   HELPERS
+\*-----------------------------------*/
+
+
+
+// Float
+.float--left {
+	float: left !important;
+}
+.float--right {
+	float: right !important;
+}
+
+
+// Text
+.text--left {
+	text-align: left !important;
+}
+.text--right {
+	text-align: right !important;
+}
+.text--center {
+	text-align: center !important;
+}
+
+
+// Images
+.img--block {
+	display: block;
+	width: 100%;
+}
+.img--block--desk {
+	@include media-query(desk) {
+		display: block;
+		width: 100%;
+	}
+}
+.img--round {
+	border-radius: 500px;
+}
+
+
+.title-inline {
+	overflow: hidden;
+	margin-bottom: $inuit-base-spacing-unit;
+	.title-inline__title,
+	.btn {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.title-inline__title {
+		margin-bottom: 0;
+		margin-right: halve($inuit-base-spacing-unit);
+	}
+}

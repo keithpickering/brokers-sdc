@@ -1,0 +1,18 @@
+/*-----------------------------------*\
+   PAGE FOOT
+\*-----------------------------------*/
+
+
+
+.page__foot {
+	padding: $inuit-base-spacing-unit;
+	color: $color-gray-2;
+	background-color: $color-brand;
+	@include media-query(desk) {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.layout__item {
+		@include inuit-font-size(16px);
+	}
+}

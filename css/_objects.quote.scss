@@ -1,0 +1,44 @@
+/*-----------------------------------*\
+   QUOTES
+\*-----------------------------------*/
+
+
+
+.quote {
+	width: 100%;
+	margin-bottom: 0;
+	text-align: center;
+}
+.quote__body {
+	max-width: 640px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: halve($inuit-base-spacing-unit);
+	padding: 0 $inuit-base-spacing-unit;
+	line-height: 1;
+	&:before,
+	&:after {
+	//	font-family: times, serif;
+		.strip--pop & {
+			color: rgba(white, 0.5);
+		}
+	}
+	&:before {
+		content: "\201C";
+	}
+	&:after {
+		content: "\201D";
+	}
+}
+.quote__cite {
+	font-family: Georgia, times, serif;
+	font-style: italic;
+	letter-spacing: 2px;
+	color: $color-gray-4;
+	&:before {
+		content: "\2014";
+	}
+	.strip--pop & {
+		color: rgba(white, 0.5);
+	}
+}

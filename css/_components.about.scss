@@ -1,0 +1,30 @@
+/*-----------------------------------*\
+  ABOUT
+\*-----------------------------------*/
+
+
+
+.strip--about {
+	background-color: $color-gray-1;
+	.list-block {
+		border-top: 1px solid $color-gray-2;
+	//	@include inuit-font-size(24px);
+	}
+	.list-block__item {
+		padding: halve($inuit-base-spacing-unit);
+		border-bottom: 1px solid $color-gray-2;
+		.fa {
+			color: $color-gray-5;
+		}
+		&:last-child {
+			.fa {
+				color: $color-primary;
+			}
+		}
+	}
+}
+
+.about-img {
+	width: 150px;
+	height: 150px;
+}

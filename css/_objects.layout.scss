@@ -1,0 +1,14 @@
+/*-----------------------------------*\
+   LAYOUT
+\*-----------------------------------*/
+
+
+
+.layout {
+	letter-spacing: -0.28em;
+	font-size: 0.1px;
+}
+.layout__item {
+	letter-spacing: normal;
+	font-size: $inuit-base-font-size;
+}
